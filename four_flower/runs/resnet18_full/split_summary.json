@@ -1,0 +1,32 @@
+{
+  "class_to_idx": {
+    "dandelion": 0,
+    "roses": 1,
+    "sunflowers": 2,
+    "tulips": 3
+  },
+  "train_size": 2125,
+  "val_size": 608,
+  "test_size": 304,
+  "total_size": 3037,
+  "train_class_counts": {
+    "dandelion": 628,
+    "roses": 449,
+    "sunflowers": 489,
+    "tulips": 559
+  },
+  "config": {
+    "backbone": "resnet18",
+    "pretrained": true,
+    "image_size": 160,
+    "batch_size": 16,
+    "epochs": 8,
+    "freeze_features_epochs": 2,
+    "label_smoothing": 0.1,
+    "random_erasing_prob": 0.0,
+    "full_augmentation": true,
+    "balanced_sampler": false,
+    "class_weighted_loss": false,
+    "best_metric": "accuracy"
+  }
+}

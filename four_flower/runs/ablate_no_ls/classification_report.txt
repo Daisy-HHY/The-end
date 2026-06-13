@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+   dandelion     0.9032    0.9333    0.9180        90
+       roses     0.7903    0.7656    0.7778        64
+  sunflowers     0.9014    0.9143    0.9078        70
+      tulips     0.8333    0.8125    0.8228        80
+
+    accuracy                         0.8618       304
+   macro avg     0.8571    0.8564    0.8566       304
+weighted avg     0.8606    0.8618    0.8611       304

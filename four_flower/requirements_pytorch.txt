@@ -1,0 +1,11 @@
+# Independent PyTorch experiment environment requirements; do not install incrementally into the TF1 environment files.
+torch>=2.2
+torchvision>=0.17
+scikit-learn>=1.4
+matplotlib>=3.8
+Pillow>=10.0
+pandas>=2.0
+tqdm>=4.65
+opencv-python>=4.7
+grad-cam>=1.5.0
+timm>=1.0

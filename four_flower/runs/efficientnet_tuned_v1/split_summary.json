@@ -1,0 +1,18 @@
+{
+  "class_to_idx": {
+    "dandelion": 0,
+    "roses": 1,
+    "sunflowers": 2,
+    "tulips": 3
+  },
+  "train_size": 2125,
+  "val_size": 608,
+  "test_size": 304,
+  "total_size": 3037,
+  "train_class_counts": {
+    "dandelion": 628,
+    "roses": 449,
+    "sunflowers": 489,
+    "tulips": 559
+  }
+}

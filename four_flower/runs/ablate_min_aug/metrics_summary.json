@@ -1,0 +1,21 @@
+{
+  "preset": "ablate_min_aug",
+  "backbone": "efficientnet_b0",
+  "test_loss": 0.6189510304676858,
+  "test_acc": 0.8585526315789473,
+  "test_macro_f1": 0.8527420026469316,
+  "best_val_acc": 0.8651315789473685,
+  "best_val_macro_f1": 0.8605737624503764,
+  "best_metric": "accuracy",
+  "avg_epoch_seconds": 137.7173588,
+  "epochs": 8,
+  "image_size": 160,
+  "batch_size": 16,
+  "pretrained": true,
+  "freeze_features_epochs": 2,
+  "label_smoothing": 0.1,
+  "random_erasing_prob": 0.0,
+  "full_augmentation": false,
+  "balanced_sampler": false,
+  "class_weighted_loss": false
+}

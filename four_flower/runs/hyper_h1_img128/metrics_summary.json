@@ -1,0 +1,21 @@
+{
+  "preset": "hyper_h1_img128",
+  "backbone": "efficientnet_b0",
+  "test_loss": 0.6470422729065544,
+  "test_acc": 0.8486842105263158,
+  "test_macro_f1": 0.8436330862884536,
+  "best_val_acc": 0.8552631578947368,
+  "best_val_macro_f1": 0.8493134284849908,
+  "best_metric": "accuracy",
+  "avg_epoch_seconds": 145.49225468749995,
+  "epochs": 8,
+  "image_size": 128,
+  "batch_size": 16,
+  "pretrained": true,
+  "freeze_features_epochs": 2,
+  "label_smoothing": 0.1,
+  "random_erasing_prob": 0.0,
+  "full_augmentation": true,
+  "balanced_sampler": false,
+  "class_weighted_loss": false
+}

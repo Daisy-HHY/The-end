@@ -1,0 +1,21 @@
+{
+  "preset": "vit_tiny_full",
+  "backbone": "vit_tiny",
+  "test_loss": 0.5378247075959256,
+  "test_acc": 0.9046052631578947,
+  "test_macro_f1": 0.9006214745474368,
+  "best_val_acc": 0.9194078947368421,
+  "best_val_macro_f1": 0.9165163149021904,
+  "best_metric": "accuracy",
+  "avg_epoch_seconds": 86.3252342375,
+  "epochs": 8,
+  "image_size": 160,
+  "batch_size": 16,
+  "pretrained": true,
+  "freeze_features_epochs": 2,
+  "label_smoothing": 0.1,
+  "random_erasing_prob": 0.0,
+  "full_augmentation": true,
+  "balanced_sampler": false,
+  "class_weighted_loss": false
+}

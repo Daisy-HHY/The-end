@@ -1,0 +1,21 @@
+{
+  "preset": "mobilenet_v3_small_full",
+  "backbone": "mobilenet_v3_small",
+  "test_loss": 0.6183977644694479,
+  "test_acc": 0.8618421052631579,
+  "test_macro_f1": 0.8584609140575766,
+  "best_val_acc": 0.8667763157894737,
+  "best_val_macro_f1": 0.8614486283616607,
+  "best_metric": "accuracy",
+  "avg_epoch_seconds": 38.48281803749999,
+  "epochs": 8,
+  "image_size": 160,
+  "batch_size": 16,
+  "pretrained": true,
+  "freeze_features_epochs": 2,
+  "label_smoothing": 0.1,
+  "random_erasing_prob": 0.0,
+  "full_augmentation": true,
+  "balanced_sampler": false,
+  "class_weighted_loss": false
+}

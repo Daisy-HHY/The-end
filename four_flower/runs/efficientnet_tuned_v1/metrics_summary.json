@@ -1,0 +1,11 @@
+{
+  "best_val_acc": 0.8585526315789473,
+  "best_val_macro_f1": 0.8538020782978015,
+  "test_loss": 0.6252398020342776,
+  "test_acc": 0.875,
+  "test_macro_f1": 0.870272014263723,
+  "best_metric": "macro_f1",
+  "balanced_sampler": true,
+  "class_weighted_loss": true,
+  "random_erasing_prob": 0.15
+}

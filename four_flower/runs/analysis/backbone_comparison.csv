@@ -1,0 +1,5 @@
+backbone,preset,test_acc,test_macro_f1
+EfficientNet-B0,eff_b0_full,0.8487,0.8432
+ResNet-18,resnet18_full,0.8816,0.8783
+MobileNetV3-Small,mobilenet_v3_small_full,0.8618,0.8585
+ViT-Tiny,vit_tiny_full,0.9046,0.9006
